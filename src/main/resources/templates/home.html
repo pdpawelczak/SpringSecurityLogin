@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<div>
+    <!--<span th:text="${#authorization.expression('isAuthenticated()')} ?-->
+               <!--'The user is logged in' :-->
+               <!--'The user is NOT logged in'">-->
+
+
+    <!--</span>-->
+
+    <!--User: <span th:text="${#authentication.getPrincipal().getUsername()}"></span>-->
+    <!--Logged user: <span sec:authentication="name"></span>-->
+    <!--Roles: <span sec:authentication="principal.authorities.role">-->
+
+    <!--<td th:text="${principal.role}"/>-->
+
+
+        <tr>
+            User name: <td th:text="${principal.name}"/>
+            <br><br>
+
+        </tr>
+
+
+
+</div>
+
+
+</body>
+</html>
