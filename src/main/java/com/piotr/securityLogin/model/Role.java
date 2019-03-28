@@ -31,5 +31,9 @@ public class Role {
         this.name = name;
     }
 
-
+    //really important!!!
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
